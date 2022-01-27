@@ -1,0 +1,42 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(173, 216, 230, 0.808);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+  width: 20rem;
+  border-radius: 1.5rem;
+  position: relative;
+  background: white;
+  margin-top: 3rem;
+  text-align: center;
+  /* padding: 1rem; */
+}
+/* 
+============
+general end
+============
+*/
+img {
+  padding: 0.75rem 0.25rem;
+  width: 90%;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+p {
+  margin: 2rem;
+}
+.one {
+  color: rgb(2, 2, 71);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+.two {
+  color: rgba(128, 128, 128, 0.842);
+}
